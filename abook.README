@@ -1,0 +1,95 @@
+abook
+------------------------------------------
+
+text-based ncurses address book application
+
+A text-based ncurses address book application. It provides many
+different fields of user info. Abook is designed for use with mutt,
+but can be used independently.
+
+Runtime requirements:
+  cygwin
+  libncurses8
+  libreadline6
+
+Build requirements:
+  cygwin
+  libncurses8
+  libreadline6
+
+Canonical homepage:
+  http://freshmeat.net/projects/abook
+  http://www.sourceforge.net/projects/abook
+  http://packages.debian.org/abook
+
+Version control repository:
+  http://sourceforge.net/cvs/?group_id=10880
+
+Mailing list:
+  http://sourceforge.net/mail/?group_id=10880
+
+Forum / Wiki:
+
+IRC channel:
+
+Canonical download:
+  See above
+
+Upstream contact:
+  Author: Jaakko Heinonen <jheinonen@bigfoot.com> <jheinonen@users.sf.net>
+  Bugs: http://sourceforge.net/tracker/?atid=110880&group_id=10880&func=browse
+
+License:
+  GPL
+
+Language:
+  C
+
+------------------------------------
+
+Build instructions:
+  You may need cygbuild.sourceforge.net to build *src.tar.bz2 archive
+  unpack abook-0.5.6-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./abook*.sh all
+
+This will create:
+  abook-0.5.6-1.tar.bz2
+  abook-0.5.6-1-src.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary distro:
+
+usr/bin/abook.exe
+usr/share/doc/Cygwin/abook-0.5.6.README
+usr/share/doc/abook-0.5.6/ANNOUNCE
+usr/share/doc/abook-0.5.6/AUTHORS
+usr/share/doc/abook-0.5.6/BUGS
+usr/share/doc/abook-0.5.6/COPYING
+usr/share/doc/abook-0.5.6/ChangeLog
+usr/share/doc/abook-0.5.6/FAQ
+usr/share/doc/abook-0.5.6/HOWTO.translating_abook
+usr/share/doc/abook-0.5.6/NEWS
+usr/share/doc/abook-0.5.6/README
+usr/share/doc/abook-0.5.6/THANKS
+usr/share/doc/abook-0.5.6/TODO
+usr/share/locale/de/LC_MESSAGES/abook.mo
+usr/share/locale/fr/LC_MESSAGES/abook.mo
+usr/share/locale/ja/LC_MESSAGES/abook.mo
+usr/share/locale/sv/LC_MESSAGES/abook.mo
+usr/share/man/man1/abook.1.gz
+usr/share/man/man5/abookrc.5.gz
+
+------------------
+
+Port Notes:
+
+----- version 0.5.1-1 -----
+- Initial release 2007-12-01 Jari Aalto
+- Based on Debian version
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later

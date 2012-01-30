@@ -1,0 +1,2 @@
+tag1: abook
+  http://packages.debian.org/unstable/mail/abook pregexp:orig.tar.gz file:abook_0.5.1.orig.tar.gz new: x:
