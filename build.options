@@ -1,0 +1,4 @@
+# Just before make(1) is about to be run, this file is sourced
+
+# ./configure guesses this wrong. Fix.
+sed -i 's,HAVE_DECL_WCWIDTH 0,HAVE_DECL_WCWIDTH 1,' config.h
