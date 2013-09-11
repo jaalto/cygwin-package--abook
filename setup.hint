@@ -3,4 +3,4 @@ ldesc: "A text-based ncurses address book application. It provides many
 different fields of user info. Abook is designed for use with mutt,
 but can be used independently."
 category: Text Mail
-requires: cygwin libncurses8 libreadline6
+requires: cygwin libncursesw10 libreadline7
