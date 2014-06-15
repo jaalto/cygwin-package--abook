@@ -8,12 +8,11 @@ different fields of user info. Abook is designed for use with mutt,
 but can be used independently.
 
 Runtime requirements:
-  cygwin
   libncursesw10
   libreadline7
 
 Build requirements:
-  cygwin
+  quilt
   libncursesw-devel
   libreadline-devel
 
@@ -49,15 +48,15 @@ Language:
 
 Build instructions:
   You may need cygbuild.sourceforge.net to build *src.tar.bz2 archive
-  unpack abook-0.5.6-2-src.tar.bz2
+  unpack abook-0.6.0.0+pre2-1-src.tar.bz2
     if you use setup to install this src package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
   ./abook*.sh all
 
 This will create:
-  abook-0.5.6-2.tar.bz2
-  abook-0.5.6-2-src.tar.bz2
+  abook-0.6.0.0+pre2-1.tar.xz
+  abook-0.6.0.0+pre2-1-src.tar.xz
 
 -------------------------------------------
 
@@ -68,6 +67,9 @@ Files included in the binary distro:
 
 Port Notes:
 
+----- version 0.6.0.0+pre2-1 -----
+- New upstream release 2014-06-15 Jari Aalto
+
 ----- version 0.5.6-2 -----
 - New upstream release 2013-09-11 Jari Aalto
 - gcc 4.8.1 support (inlcude header patch added)
@@ -76,5 +78,5 @@ Port Notes:
 - Initial release 2007-12-01 Jari Aalto
 - Based on Debian version
 
-Cygwin port maintained by: user <jari.aalto@cante.net>
-Copyright (C) 2007-2013 Jari Aalto; Licenced under GPL v2 or later
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2007-2014 Jari Aalto; Licenced under GPL v2 or later
