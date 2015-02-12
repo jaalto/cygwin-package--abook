@@ -48,15 +48,15 @@ Language:
 
 Build instructions:
   You may need cygbuild.sourceforge.net to build *src.tar.bz2 archive
-  unpack abook-0.6.0.0+pre2-1-src.tar.bz2
+  unpack abook-0.6.0.0+pre2-2-src.tar.bz2
     if you use setup to install this src package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
   ./abook*.sh all
 
 This will create:
-  abook-0.6.0.0+pre2-1.tar.xz
-  abook-0.6.0.0+pre2-1-src.tar.xz
+  abook-0.6.0.0+pre2-2.tar.xz
+  abook-0.6.0.0+pre2-2-src.tar.xz
 
 -------------------------------------------
 
@@ -67,8 +67,12 @@ Files included in the binary distro:
 
 Port Notes:
 
+----- version 0.6.0.0+pre2-2 -----
+- New release 2015-02-12 Jari Aalto
+- Compile with libncursesw10
+
 ----- version 0.6.0.0+pre2-1 -----
-- New upstream release 2014-06-15 Jari Aalto
+- New release 2014-06-15 Jari Aalto
 
 ----- version 0.5.6-2 -----
 - New upstream release 2013-09-11 Jari Aalto
@@ -79,4 +83,4 @@ Port Notes:
 - Based on Debian version
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2007-2014 Jari Aalto; Licenced under GPL v2 or later
+Copyright (C) 2007-2015 Jari Aalto; Licenced under GPL v2 or later
