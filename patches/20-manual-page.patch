@@ -1,0 +1,110 @@
+---
+ abook.1   |    2 --
+ configure |   58 ++--------------------------------------------------------
+ 2 files changed, 2 insertions(+), 58 deletions(-)
+
+--- a/abook.1
++++ b/abook.1
+@@ -9,8 +9,6 @@ abook \- text\-based address book progra
+ This manual page documents briefly the
+ .B abook
+ program.
+-This manual page was written for the Debian GNU/Linux distribution
+-because the original program does not have a manual page.
+ .PP
+ .B abook 
+ is a text-based address book program. It contains Name, Email, Address 
+--- a/configure
++++ b/configure
+@@ -2506,8 +2506,8 @@ test "$program_suffix" != NONE &&
+ ac_script='s/[\\$]/&&/g;s/;s,x,x,$//'
+ program_transform_name=`$as_echo "$program_transform_name" | sed "$ac_script"`
+ 
+-# Expand $ac_aux_dir to an absolute path.
+-am_aux_dir=`cd "$ac_aux_dir" && pwd`
++# expand $ac_aux_dir to an absolute path
++am_aux_dir=`cd $ac_aux_dir && pwd`
+ 
+ if test x"${MISSING+set}" != xset; then
+   case $am_aux_dir in
+@@ -2914,7 +2914,6 @@ END
+ fi
+ 
+ 
+-
+ DEPDIR="${am__leading_dot}deps"
+ 
+ ac_config_commands="$ac_config_commands depfiles"
+@@ -4371,9 +4370,6 @@ $as_echo "#define _POSIX_1_SOURCE 2" >>c
+ 
+ $as_echo "#define _MINIX 1" >>confdefs.h
+ 
+-
+-$as_echo "#define _NETBSD_SOURCE 1" >>confdefs.h
+-
+   fi
+ 
+ 
+@@ -4409,62 +4405,12 @@ $as_echo "$ac_cv_safe_to_define___extens
+ 
+   $as_echo "#define _ALL_SOURCE 1" >>confdefs.h
+ 
+-  $as_echo "#define _DARWIN_C_SOURCE 1" >>confdefs.h
+-
+   $as_echo "#define _GNU_SOURCE 1" >>confdefs.h
+ 
+   $as_echo "#define _POSIX_PTHREAD_SEMANTICS 1" >>confdefs.h
+ 
+   $as_echo "#define _TANDEM_SOURCE 1" >>confdefs.h
+ 
+-  { $as_echo "$as_me:${as_lineno-$LINENO}: checking whether _XOPEN_SOURCE should be defined" >&5
+-$as_echo_n "checking whether _XOPEN_SOURCE should be defined... " >&6; }
+-if ${ac_cv_should_define__xopen_source+:} false; then :
+-  $as_echo_n "(cached) " >&6
+-else
+-  ac_cv_should_define__xopen_source=no
+-     cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+-/* end confdefs.h.  */
+-
+-          #include <wchar.h>
+-          mbstate_t x;
+-int
+-main ()
+-{
+-
+-  ;
+-  return 0;
+-}
+-_ACEOF
+-if ac_fn_c_try_compile "$LINENO"; then :
+-
+-else
+-  cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+-/* end confdefs.h.  */
+-
+-             #define _XOPEN_SOURCE 500
+-             #include <wchar.h>
+-             mbstate_t x;
+-int
+-main ()
+-{
+-
+-  ;
+-  return 0;
+-}
+-_ACEOF
+-if ac_fn_c_try_compile "$LINENO"; then :
+-  ac_cv_should_define__xopen_source=yes
+-fi
+-rm -f core conftest.err conftest.$ac_objext conftest.$ac_ext
+-fi
+-rm -f core conftest.err conftest.$ac_objext conftest.$ac_ext
+-fi
+-{ $as_echo "$as_me:${as_lineno-$LINENO}: result: $ac_cv_should_define__xopen_source" >&5
+-$as_echo "$ac_cv_should_define__xopen_source" >&6; }
+-  test $ac_cv_should_define__xopen_source = yes &&
+-    $as_echo "#define _XOPEN_SOURCE 500" >>confdefs.h
+-
+ 
+ 
+ mkdir_p="$MKDIR_P"
