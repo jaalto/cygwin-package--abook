@@ -17,7 +17,7 @@ Build requirements:
   libreadline-devel
 
 Canonical homepage:
-  http://freshmeat.net/projects/abook
+  http://freecode.com/projects/abook
   http://www.sourceforge.net/projects/abook
   http://packages.debian.org/abook
 
@@ -36,7 +36,7 @@ Canonical download:
 
 Upstream contact:
   Author: Jaakko Heinonen <jheinonen@bigfoot.com> <jheinonen@users.sf.net>
-  Bugs: http://sourceforge.net/tracker/?atid=110880&group_id=10880&func=browse
+  Bugs: https://sourceforge.net/p/abook/bugs/
 
 License:
   GPL
