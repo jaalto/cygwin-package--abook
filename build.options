@@ -4,7 +4,7 @@
 # CYGBUILD_CXX="g++"
 
 # See https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=777764
-CYGBUILD_CFLAGS="-std=gnu89"
+CYGBUILD_CFLAGS="-std=gnu89 -fgnu89-inline"
 
 # CYGBUILD_CXXLAGS="-O2 -ggdb -pipe -Werror=implicit-function-declaration"
 #
